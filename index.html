@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashasti-Developer Portfolio</title>
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type="text/css"rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="color: white;">
+            <h2 class="navbar-brand" >Portfolio</h2>
+            
+            <div class="collapse navbar-collapse" id="navbarNav" >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tt">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proj">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cont">Contact Me</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="firstsection" >
+            <div class="leftsection">
+                Hi, My name is 
+                   <span class="purple">Prashasti Pandey</span> 
+                <div>and I'm interested in <span class="purple">Web Developement</span> </div>
+                <button onclick="gotolink(this)" value="resume.pdf" class="btn">Download Resume></button>
+                <button onclick="gotolink(this)" value="https://github.com/prashasti27"class="btn">Visit Github</button>
+            </div>
+            <script>
+                function gotolink(link)
+                {
+                    console.log(link.value);
+                    location.href=link.value;
+                    window.open(link.value);
+                };
+              </script>
+            <div class="rightsection">
+                <img src="img1.png" alt="" >
+            </div>
+        </section>
+    <hr>
+        <section class="secondsection">
+            <h1>ABOUT ME</h1>
+            <div class="asec">
+                <img src="t3.png" alt="" >
+            </div>
+            <div class="bsec">
+                I'm Prashasti Pandey, a web developer originally from Prayagraj, Uttar Pradesh. Currently pursuing my B.Tech degree in the fourth year at NMAMIT Nitte, I'm interested in creating visually appealing and user-friendly websites. In my free time, I indulge in theater activities where I enjoy expressing myself through acting.
+            </div>
+            <hr>
+           
+        </section>
+        <h3 id="tt">My Skills</h3>
+        <section class="thirdsection">
+           
+            <div class="lefttsection">
+                <div class="skillsbox container grid">
+                    <div class="skillsdata">
+                        <h3 class="sectionsubt">
+                            Technical Skills
+                           </h3>
+                         
+                        <div class="skillscontent">
+                             <ul class="skillsgrp" shape>
+                                 <li class="skillsitem">HTML & CSS</li>
+                                 <li class="skillsitem">JavaScript</li>
+                                 <li class="skillsitem">Angular</li>  
+                                 <li class="skillsitem">PHP</li>  
+                             </ul>
+                        
+                             <ul class="skillsgrp">
+                                 <li class="skillsitem">C</li>
+                                <li class="skillsitem">C++</li>
+                                <li class="skillsitem">Java</li>
+                                <li class="skillsitem">MYSQL</li>
+                            </ul>
+                        </div> 
+                    </div>   
+                </div>    
+            </div>
+            <div class="rightsec">
+                <div class="skillsbox container grid">
+                    <div class="skillsdata">
+
+                         <h3 class="sectionsubt">
+                            Soft Skills
+                        </h3>  
+                       <div class="skillscontent">
+                             <ul class="skillsgrp" shape>
+                              <li class="skillsitem">Communication</li>
+                              <li class="skillsitem">Adaptability</li>
+                              <li class="skillsitem">Public Speaking</li>
+                             
+                             </ul>
+                        
+                             <ul class="skillsgrp">
+                                 <li class="skillsitem">Leadership</li>
+                                 <li class="skillsitem">Teamwork</li>
+                                 <li class="skillsitem">Collaboration</li>
+                             </ul>    
+                        </div>
+                    </div>            
+                </div>
+               
+            </div> 
+        </section>
+        <hr>
+        <section class="fourthsection">
+      <div class="lsection">
+       
+         <div class="rew">
+            <header class="tit">
+                <h2>Education</h2>
+            </header>
+            <div class="content">
+                    
+                <div class="box">
+                    <h4>2016-2017</h4>
+                    <h3>High School</h3>
+                    <p>St Mary's Convent Inter College</p>
+                    <p>Score:92.6%</p>
+                 </div>
+                 <div class="box">
+                    <h4>2018-2019</h4>
+                    <h3>Intermediate</h3>
+                    <p>St Mary's Convent Inter College</p>
+                    <p>Score:84.5%</p>
+                 </div>
+                 <div class="box">
+                    <h4>2020-2024</h4>
+                    <h3>B.E in Computer Science</h3>
+                    <p>N.M.A.M.
+                        Institute of Technology</p>
+                    <p>Score:9.39(current C.G.P.A)</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="righttsection">
+        <div class="rew">
+            <header class="tit">
+                        <h2>Experience</h2>
+            </header>
+                    <div class="content">
+                            
+                        <div class="box">
+                            <h4>2022</h4>
+                            <h3>Dlithe</h3>
+                            <p>August-September</p>
+                            <p>Web Development intern</p>
+                            
+                         </div>
+                         <div class="box">
+                            <h4>2023</h4>
+                            <h3>Internshala</h3>
+                            <p>June-July</p>
+                            <p>Training</p>
+                         </div>
+                         <div class="box">
+                            <h4>2023</h4>
+                            <h3>Bharath Intern</h3>
+                            <p>July-August</p>
+                            <p>Web Development intern</p>
+                         </div>
+                         
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="projects" id="proj">
+            <div class="projinfo">
+                <h1>My Projects</h1>
+
+            </div>
+            <div class="projrow">
+                <div class="projsbox">
+                    <img src="https://i0.wp.com/syracuseconnection.com/wp-content/uploads/2021/01/AdobeStock_302124368.jpeg?resize=663%2C441&ssl=1" width="350px"alt=""/>
+                    <h2>Traffic Regulator</h2>
+                    <p>OpenGL C++</p>
+                    <a href="https://github.com/prashasti27/TrafficRegulatorOpengl">link</a>
+                </div>
+                <div class="projsbox" >
+                    <img src="https://www.ingeniux.com/Images/Blog/Blog%20Images/Blog%20Front/web-cms-student-portal-main.jpg"  width="350px"  alt=""/>
+                    <h2>Student Portal</h2>
+                    <p>HTML CSS BOOTSTRAP PHP</p>
+                    <a href=""></a>
+                </div>
+                <div class="projsbox" >
+                    <img src="https://www.utsa.edu/sciences/img/resources/students-1.png" width="350px"   alt=""/>
+                    <h2>Resource-it</h2>
+                    <p>HTML CSS BOOTSTRAP ANGULAR</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fifthsection" id="cont">
+            <h1>Contact me for Work/General Enquiries</h1>
+           <div class="box"> 
+                <div class="text">
+                        <h3> &#128231; Email</h3>
+                    </div>
+                    <div class="contactform">
+                        <form>
+                            <h2>Send Message</h2>
+                            <div class="inputbox">
+                                 <input type="text" name ="" required="required">
+                                 <span>Full Name</span>
+                            </div>
+                            <div class="inputbox">
+                                <input type="text" name ="" required="required">
+                                <span>Email</span>
+                           </div>
+                           <div class="inputbox">
+                                <span>Type your message here...</span>
+                                <textarea required="required"></textarea>
+                                
+                           </div>
+                           <div class="inputbox">
+                                <input type="submit" name ="" value="Send">
+
+                            </div>
+                        </form>
+                    </div>
+                
+            </div>
+            
+        </section>
+        <hr>
+    </main>
+   <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Portfolio</h3>
+            </div>
+          
+           
+            <div class="footer-fourth">
+             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfmrfWSdQPrzvCglvHRkHqQRgqcqPLDQSkCkFcmLwPrKJvqxXcXfwVhZmRtkCZFgFPdZDV" target="_blank">
+              <i class="fa-sharp fa-regular fa-envelope"></i>
+            </a>
+               <a href="https://www.linkedin.com/in/prashasti-pandey-96abb2203"  target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://github.com/prashasti27" target="_blank"> <i class="fa-brands fa-square-github"></i></a>
+               <a href="https://www.instagram.com/that_wannabe_momo/" target="_blank">  <i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; prashastisportfolio.com ~ All Rights Reserved
+        </div>
+
+   </footer>
+  
+</body>
+</html>

@@ -1,0 +1,488 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+      background-color: rgb(2, 2, 46);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    display :flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 66) ;
+    color: white;
+}
+
+nav ul {
+    display:flex;
+    justify-content: center;
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(144, 144, 185) ;
+}
+nav ul li a:hover {
+   font-size: 1.01rem;
+    color:white ;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.firstsection {
+    display:flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+}
+.firstsection > div{
+    display:block;
+    justify-content: space-around;
+    margin: 23px 0;
+    width: 30%;
+}
+.leftsection {
+    
+    font-size: 3rem;
+    margin: 30px 0;
+    display:flex;
+    justify-content: space-around;
+   
+}
+.leftsection .buttons{
+    padding :63px;
+}
+.leftsection .btn{
+    background-color:hsl(240, 26%, 20%); 
+    color:white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding:12px;
+    font-size: 20px;
+    cursor:pointer;
+
+}
+.leftsection .btn:hover{
+    background-color:rgb(114, 114, 146) ;
+}
+.rightsection img {
+    width: 110%;
+    margin:23px 0;
+    height:auto;
+
+}
+.secondsection {
+    max-width:80vw;
+    margin:auto;
+    display:block;
+    text-align: center;
+   
+}
+.secondsection h1 {
+  font-size: 1.7rem;
+}
+.secondsection h1:hover {
+  font-size: 1.75rem;
+}
+.asec{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+    align-items: center;
+}
+.asec img{
+    
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(100, 100, 152), 
+                0 0 25px rgb(100, 100, 152);
+    height: 250px;
+    margin: 23px 0;
+   
+}
+.bsec{
+    display: block;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 15px;
+    box-shadow: 0 0 5px rgb(100, 100, 152), 
+                0 0 25px rgb(100, 100, 152);
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: rgb(4, 4, 27);
+    
+}
+.bsec:hover{
+    box-shadow: 0 0 20px rgb(100, 100, 152);
+}
+
+.thirdsection {
+
+    display:flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    position: relative;
+    padding:30px;
+    border: 1px solid rgb(190, 202, 214);
+    background-color:rgb(24, 38, 58); ;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom:20px;
+}
+ .thirdsection h1{
+    font-size: 0.5rem;
+ }  
+.lefttsection
+{
+    font-size: 1.2rem;;
+    margin: 30px 0;
+}
+.rew{
+    margin:30px 0;
+}
+.rightsec{
+    font-size: 1.2rem;;
+    margin: 30px 0;
+   
+}
+.lsection{
+    min-height: 50vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.righttsection{
+   min-height: auto;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.tit{
+    padding: 0px 0px 20px 30px;
+}
+.content{
+    padding: 0px 30px;
+    border-left: 2px solid hsl(240, 21%, 49%); ;
+}
+.box h4 {
+    position: relative;
+    padding: 10px 0px 6px;;
+    color: blueviolet;
+}
+.box p{
+    line-height: 1.2;
+    font-size: 17px;
+}
+.box{
+    position: relative;
+    padding:20px;
+    border: 1px solid rgb(190, 202, 214);
+    background-color:rgb(24, 38, 58); 
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom:20px;
+}
+.box:hover{
+    box-shadow: 0px 3px 12px 0px  rgb(190, 202, 214);
+    border: 1px solid transparent;
+}
+.box::before{
+
+    content:'';
+    position:absolute;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    right:calc(100% + 22px);
+    top:0;
+    background-color: rgb(190, 202, 214);
+    border:2px solid white;
+}
+.fourthsection{
+    display:flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+}
+.box>p{
+    color:gray;
+}
+hr{
+    background: blueviolet;
+    height: 0.4px;
+    margin: 40px 84px;
+}
+.skillsbox{
+    padding-bottom: 2rem;
+    row-gap: 3.5rem;;
+}
+.skillsdata{
+    text-align: center;
+}
+.skillscontent,
+.skillsgrp{
+    display:grid;
+}
+.skillscontent{
+    grid-template-columns: repeat(2,max-content);
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+.thirdsection:hover{
+    box-shadow: 0px 3px 12px 0px  rgb(190, 202, 214);
+    border: 1px solid transparent;
+}
+.skillsgrp{
+    padding-top: 1rem;
+    row-gap: 1rem;
+    list-style-type:square;
+}
+.skillsitem{
+    font-weight:200;
+    color:rgb(100, 100, 152);
+}
+.skillsitem::marker{
+    
+    color:rgb(89, 89, 226) ;
+}
+.skillsitem:hover{
+    
+    color:rgb(141, 141, 177) ;
+}
+.container{
+    max-width: 1120px;
+    margin-inline: 1.5rem;;
+}
+.sectionsubt{
+    font-weight: 300;
+    color: rgb(190, 202, 214);
+    justify-content: center;
+   align-items: center;
+}
+footer{
+    background-color: rgb(3, 5, 23);
+   
+}
+.footer{
+    display:flex;
+    padding:23px 122px;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div {
+    width:223px;
+}
+.footer-rights{
+    text-align:center;
+    color:gray;
+    padding-top: 12px 0;
+}
+.footer-fourth{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-fourth a{
+    height: 60px;
+    width:60px;
+    background-color: rgb(198, 221, 241);
+    border-radius: 90px;
+    text-align: center;
+    margin: 5px;
+    line-height:60px ;
+    box-shadow: 1px 2px 2px 2px gray;
+}
+a i{
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform:scale(1.4);
+}
+.fa-linkedin{
+    color:#0072b1;
+}
+.fa-square-github{
+    color:rgb(19, 18, 18);
+}
+.fa-instagram{
+    
+        display: inline-block;
+        text-align: center;
+        border-radius: 50px;
+        color: #fff;
+        line-height: 250px;
+        vertical-align: middle;
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+      }
+
+*{
+    box-sizing: border-box;
+}
+.purple {
+    color: blueviolet;
+}
+#tt{
+    max-width:80vw;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 23px;;
+}
+.fifthsection{
+     position: relative;
+     min-height: 100vh;
+     padding: 50px 100px;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     flex-direction: column;
+    
+}
+/*.fifthsection .content{
+    max-width: 800px;
+    text-align: center;
+}*/
+.fifthsection .content h2{
+   font-size: 36px;
+   font-weight:500 ;
+   color:rgb(100, 100, 152);
+
+
+}
+/*.fifthsection .content p{
+    font-weight: 300;
+    font-size:36px;   
+}*/
+.fifthsection .box{
+    position: relative;
+    padding: 20px 0;
+    display:flex; 
+    width:50%;
+}
+
+.fifthsection h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+.fifthsection form div{
+    padding: 20px 0;
+    
+}
+.fifthsection .div h3{
+    padding-bottom: 50px;
+}
+.contactform{
+    width:50%;
+    padding:20px 0;
+
+}
+.contactform .inputbox{
+    position: relative;
+    width:100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+ padding:5px 0;
+ width:100%;
+ font-size: 16px;
+ border:none;
+ border-bottom: 2px solid black;
+ outline:none;
+ resize:none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left:0;
+    padding:45px 0;
+    margin:10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+
+}
+.contactform .inputbox input:focus ~span,
+.contactform .inputbox input:valid ~span
+.contactform .inputbox textarea:focus ~span,
+.contactform .inputbox textarea:valid ~span
+{
+   color: red;
+   font-size: 12px;
+   transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+    width:100px;
+    background:green;
+    color:#fff;
+    border: none;
+    cursor:pointer;
+    padding :10px;
+    font-size: 16px;
+}
+.projects{
+    padding:20px 50px;
+    text-align: center;
+   
+}
+.projrow{
+   display:flex;
+   justify-content: space-around; 
+   align-items: center;
+   flex-wrap: wrap;
+}
+.projsbox{
+    text-align: center;
+    box-shadow: 2px 3px 5px white;
+    padding :20px;
+    flex-basis: 25%;
+    margin-top: 20px;
+}
+.projsbox:hover{
+    background:rgb(100, 100, 152) ;
+    color:white;
+    transition: 0.4s;
+    font-size: 1.2rem;
+} 
+.projects h1{
+    font-size: 1.7rem;
+    padding-bottom: 50px;
+}
+.projsbox p{
+    color:rgb(37, 55, 79);
+}
+@media screen and(max-width: 2000px){
+  
+   .firstsection{
+    flex-direction:column-reverse ;
+   }
+   .container
+   {
+    flex-direction: column;
+   }
+   .contactform{
+    width:100%;
+   }
+   
+}
